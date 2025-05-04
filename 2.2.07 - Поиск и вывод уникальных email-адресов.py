@@ -10,5 +10,5 @@ with open('emails.txt', 'r', encoding='utf-8') as file:
         emails.extend(email)
     result = set(emails)
     print(f'Количество уникальных email-адресов:\n{len(result)}')
-    print('Список уникальных email-адресов:')Работа с текстовыми и бинарными файлами
+    print('Список уникальных email-адресов:')
     print(*sorted(result), sep='\n')
