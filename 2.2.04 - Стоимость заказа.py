@@ -10,7 +10,7 @@ Sample Output:
 
 1650'''
 
-with open('prices.txt','r',encoding='utf-8') as file:
+with open('TEXTs/prices.txt', 'r', encoding='utf-8') as file:
     total = []
     for line in file:
         line = line.strip()

@@ -27,7 +27,7 @@ Day 13, 12 pull ups
 в формате "Количество подтягиваний pull ups". Если такого номера дня нет в файле,
 то должно вывестись сообщение No info'''
 
-with open("prices.txt") as file:
+with open("TEXTs/prices.txt") as file:
     result = {}
     for line in file:
         line = line.strip()
