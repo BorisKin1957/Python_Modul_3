@@ -33,7 +33,7 @@ import re
 
 emails = []
 
-with open('emails.txt', 'r', encoding='utf-8') as file:
+with open('TEXTs/emails.txt', 'r', encoding='utf-8') as file:
     #regex = r'(?i)(?:[a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9]+(?:\.[a-z0-9]+)+'
     regex = r'(?i)[a-z0-9_-]+@[a-z0-9]+\.[a-z0-9]+'
     for line in file:
