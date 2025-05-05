@@ -27,7 +27,7 @@ from datetime import datetime
 
 def display_events():
     # Открываем файлы для чтения и записи
-    with open('events.txt', 'r', encoding='utf-8') as file1:
+    with open('TEXTs/events.txt', 'r', encoding='utf-8') as file1:
         text = []
         # Читаем каждую строку из файла
         for line in file1:
